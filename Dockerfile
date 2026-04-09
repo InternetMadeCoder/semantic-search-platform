@@ -6,4 +6,4 @@ COPY backend/ /app
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "app/main.py"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "$PORT"]
