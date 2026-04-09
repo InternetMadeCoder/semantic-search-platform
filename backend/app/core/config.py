@@ -31,7 +31,11 @@ class Settings(BaseSettings):
     chunk_overlap_words: int = 60
     top_k: int = 5
 
-    cors_origins: list[str] = ['*']
+    cors_origins: list[str] = [
+        'http://localhost:3000',
+        'https://docusense.gayathrii.dev',
+        'https://docusense-ett.vercel.app'
+    ]
 
     @field_validator('cors_origins', mode='before')
     @classmethod
