@@ -1,4 +1,4 @@
-// File: /Users/gayathriravindran/Documents/New project/frontend/app/(auth)/signup/page.tsx
+// File: /Users/gayathriravindran/Desktop/semantic-search-platform/frontend/app/(auth)/signup/page.tsx
 import * as entry from '../../../../../app/(auth)/signup/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

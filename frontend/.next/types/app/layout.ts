@@ -1,4 +1,4 @@
-// File: /Users/gayathriravindran/Documents/New project/frontend/app/layout.tsx
+// File: /Users/gayathriravindran/Desktop/semantic-search-platform/frontend/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
