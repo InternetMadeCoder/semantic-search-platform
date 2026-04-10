@@ -6,7 +6,7 @@ import '@/app/globals.css';
 const plusJakarta = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Semantic Search SaaS',
+  title: 'Semantic Search Engine',
   description: 'Production-ready semantic search with RAG chat over PDFs',
 };
 
