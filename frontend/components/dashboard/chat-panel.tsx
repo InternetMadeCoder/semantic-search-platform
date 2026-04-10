@@ -60,7 +60,7 @@ export function ChatPanel({ messages, loading, onSubmit }: ChatPanelProps) {
     <Card className='flex h-[calc(100vh-2rem)] flex-col p-4'>
       <div className='flex items-center gap-2 pb-4'>
         <Sparkles className='h-4 w-4 text-primary' />
-        <h2 className='text-lg font-semibold'>Semantic RAG Chat</h2>
+        <h2 className='text-lg font-semibold'>DocuSense</h2>
       </div>
 
       <ScrollArea className='flex-1'>
